@@ -2,7 +2,7 @@
 
 # TaskManagerAPP
 
-Este es el repositorio REST API para TaskManagerApp. Implementado con Laravel y React.
+Este es el repositorio REST API para TaskManagerApp. Implementado con Laravel y React(https://github.com/alfraul14/TaskManagerApp-React-).
 
 ## Ejecución
 
