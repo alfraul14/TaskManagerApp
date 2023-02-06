@@ -7,6 +7,7 @@ Este es el repositorio REST API para TaskManagerApp. Implementado con Laravel y 
 ## Ejecución
 
 Estos pasos a seguir fueron probados en Window 10
+debe contar con PHP activo y Base de datos PHPmyadmin(mysql)activos.
 
 1. Clone the repo locally:
     ```shCancel changes
