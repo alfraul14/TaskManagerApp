@@ -23,9 +23,9 @@ class TaskController extends Controller
             'Completed' => Task::where('completed','=',1)->get()
         ]);
     }
-    public function search(SearchTaskRequest $request)
+    public function search($search)
     {
-        $search = $request-> get('name');
+        
         return response()->json([            
             'Found' => Task::where('name','like',"%$search%")->get()
         ]);

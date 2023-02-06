@@ -23,4 +23,4 @@ Route::post('tasks',[TaskController::class,'store']);
 Route::get('tasks/{task}',[TaskController::class,'show']);
 Route::put('tasks/{task}',[TaskController::class,'update']);
 Route::delete('tasks/{task}',[TaskController::class,'destroy']);
-Route::get('searchTask',[TaskController::class,'search']);
+Route::get('searchTask/{task}',[TaskController::class,'search']);
