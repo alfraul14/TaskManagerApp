@@ -10,7 +10,7 @@ Estos pasos a seguir fueron probados en Window 10
 debe contar con PHP activo y Base de datos PHPmyadmin(mysql)activos.
 
 1. Clonar el repositorio a local:
-    ```shCancel changes
+    ```sh
     git clone https://github.com/alfraul14/TaskManagerApp.git
     ```
 2. Nos ubicamos en la carpeta creada:
@@ -21,14 +21,15 @@ debe contar con PHP activo y Base de datos PHPmyadmin(mysql)activos.
    ```sh
     composer install
     ```
-4. generamos la key (Si no esta generada)
-    ```sh
-    php artisan key:generate
-    ```
-5. Copiamos el archivo env de ejemplo
+4. Copiamos el archivo env de ejemplo
     ```sh
     cp .env.example .env
     ```
+5. generamos la key (Si no esta generada)
+    ```sh
+    php artisan key:generate
+    ```
+
 6. Corremos las migraciones
     ```sh
     php artisan migrate
