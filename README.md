@@ -6,7 +6,7 @@ Este es el repositorio REST API para TaskManagerApp. Implementado con Laravel y 
 
 ## Ejecución
 
-Estos pasos a seguir fueron probados en Window 10.05
+Estos pasos a seguir fueron probados en Window 10.04
 debe contar con PHP activo y Base de datos PHPmyadmin(mysql)activos.
 
 1. Clonar el repositorio a local:
